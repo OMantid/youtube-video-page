@@ -1,35 +1,48 @@
-/* #logo {
-    width: 80px;
-    height: 24px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-} */
 #bottom-container {
     display: flex;
-    border: 10px solid yellow;
     height: 100vh;
 }
 
 header {
     border: 5px solid red;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 0 16px;
 }
 
 section {
     border: 5px solid blue;
+    padding: 24px 24px 0 0;
+    margin-left: 24px;
     width: 70%;
 }
 
 aside {
     border: 5px solid green;
+    padding: 24px 24px 0 0;
     width: 30%;
 }
 
-#youtube {
+#youtube-logo {
     width: 80px;
     height: 24px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    width: 562px;
+}
+
+iframe {
+    width: 90%;
+    height: 603.75px;
+}
+
+#video {
+    text-align: end;
 }
