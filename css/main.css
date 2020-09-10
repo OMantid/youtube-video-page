@@ -1,10 +1,32 @@
+strong {
+    font-weight: bold;
+}
+
+h2 {
+    padding: 0.5em 0;
+}
+
+#subscribers {
+    padding-top: 0.5em;
+    font-size: 11px;
+}
+
+#views {
+    font-size: 12px;
+}
+
 #bottom-container {
     display: flex;
     height: 100vh;
 }
 
+.video-description {
+    padding-top: 1em;
+    margin-left: 10em;
+    padding-right: 10em;
+}
+
 header {
-    border: 5px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,16 +34,14 @@ header {
 }
 
 section {
-    border: 5px solid blue;
     padding: 24px 24px 0 0;
     margin-left: 24px;
     width: 70%;
 }
 
 aside {
-    border: 5px solid green;
     padding: 24px 24px 0 0;
-    width: 30%;
+    width: 20%;
 }
 
 #youtube-logo {
@@ -45,4 +65,46 @@ iframe {
 
 #video {
     text-align: end;
+}
+
+#video-info {
+    text-align: start;
+    padding-left: 10em;
+}
+
+#thumbnail {
+    flex-direction: column;
+}
+
+#thumbnail img {
+    width: 168px;
+    height: 94px;
+    padding-bottom: 1em;
+}
+
+#sidebar {
+    padding-bottom: 1em;
+}
+
+figure {
+    display: flex;
+}
+
+figcaption {
+    margin-left: 1em;
+}
+
+#video-description {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+#channel-name {
+    padding-left: 10em;
+}
+
+#subscribe-button {
+    width: 2em;
+    height: 2em;
 }
